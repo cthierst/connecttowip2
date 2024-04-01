@@ -1,0 +1,162 @@
+
+/*map page styling*/
+
+
+.maplibregl-popup-anchor-bottom-right .maplibregl-popup-tip {
+    display:none
+    }
+    
+
+
+.info {
+    position: relative;
+    width: 80%;
+    left: 10%;
+    top: 2vw;
+    padding: 10px;
+}
+
+.h1 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.h2 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.top-image {
+    position: relative;
+    /* height:10px;
+    margin: auto; */
+}
+.map { /*formats the position of the map relative to the web page*/
+    position: relative; 
+    max-width: 1200px;
+    width: 80%;
+    left: 10%;
+    height: 40vw;
+}
+
+.map-selection { 
+    position: relative;
+    font: 14px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    top: 5px;
+    left: 9%;
+    width: 260px;
+    padding: 10px; 
+    margin: 5px;
+}
+
+/*.geocoder { 
+    position: relative;
+    margin: 10px 0px 10px; 
+ } */
+
+#returnbutton {
+    position: relative;
+    margin: 10px 0 10px; /*adds padding so that it does not look cramped*/
+    width: 100%; /*sets button width to the width of the block underneath it*/
+}
+
+
+/* This styles the collapse button itself*/
+
+.collapsible {
+    position: relative;
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 14px;  
+}
+  
+/* The background colour highlights the button  when users mouse over it */
+
+.collapsible:hover {
+    background-color: #ccc; 
+}
+  
+/* This styles the collapse button content*/
+.content {
+    display: none;   /* The menu is hidden by default */
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+
+.collapsible:after {
+    content: '\02795'; /* Unicode character for the plus sign */
+    font-size: 14px;
+    color: white;
+    float: right;
+    margin-left: 5px;
+}
+  
+.active-collapse:after {
+    content: "\2796"; /* Unicode character for the minus sign */
+ }
+
+/*formatting of legend background block (see further down for legend content formatting)*/
+.legend {
+    position: relative;
+    display: block;
+    height: 200px;
+    width: 180px;
+    background-color: #fff;
+    border-width: 1px; 
+    border-style: solid;
+    border-color:lightgrey;
+    bottom: 0;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding: 15px;
+    left: 10%;
+    z-index: 1;  /* Specifies stack order of elements */
+} 
+ /* legend text sizing */
+.legend h3 {
+    font-size: 14px;
+}
+
+.legend h4 {
+    font-size: 12px;
+}
+
+/* Styling of legend icons */
+.legend div span {
+    display: inline-block;
+    height: 9px; /*size of circle*/
+    width: 9px;
+    margin-right: 0.5vw; /*position of circle*/
+}
+
+.form { 
+    padding: 5px; /*creates spacing to prevent looking cramped*/
+}
+
+.btn-2 {
+    position: relative;
+    background-color: #134A8E;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px;
+    width: 200px;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 14px;  
+    left: 9%;
+    margin: 5px;
+}
+
+.btn-2:hover {
+    background-color: #0b305e; 
+}
+
